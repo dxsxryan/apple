@@ -1,23 +1,140 @@
 [
-    {"color": ["太空灰色","藍色","粉紅色","紫色","星光色"]},
-    {"img": ["https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-space-gray-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670948416004","https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-blue-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633087841","https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-pink-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633087866","https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-purple-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633088281","https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-starlight-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633088374"]},
-
     {
+        "color": "太空灰色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-space-gray-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670948416004",
         "memory":"64GB",
         "Internet":"Wi-Fi",
         "Price":"19,900"
     },
     {
+        "color": "太空灰色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-space-gray-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670948416004",
         "memory":"64GB",
         "Internet":"Wi-Fi + HotSpot",
         "Price":"24,900"
     },
     {
+        "color": "太空灰色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-space-gray-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670948416004",
         "memory":"256GB",
         "Internet":"Wi-Fi",
         "Price":"24,900"
     },
     {
+        "color": "太空灰色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-space-gray-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670948416004",
+        "memory":"256GB",
+        "Internet":"Wi-Fi + HotSpot",
+        "Price":"29,900"
+    }
+    {
+        "color": "藍色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-blue-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633087841",
+        "memory":"64GB",
+        "Internet":"Wi-Fi",
+        "Price":"19,900"
+    },
+    {
+        "color": "藍色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-blue-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633087841",
+        "memory":"64GB",
+        "Internet":"Wi-Fi + HotSpot",
+        "Price":"24,900"
+    },
+    {
+        "color": "藍色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-blue-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633087841",
+        "memory":"256GB",
+        "Internet":"Wi-Fi",
+        "Price":"24,900"
+    },
+    {
+        "color": "藍色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-blue-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633087841",
+        "memory":"256GB",
+        "Internet":"Wi-Fi + HotSpot",
+        "Price":"29,900"
+    }
+    {
+        "color": "粉紅色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-pink-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633087866",
+        "memory":"64GB",
+        "Internet":"Wi-Fi",
+        "Price":"19,900"
+    },
+    {
+        "color": "粉紅色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-pink-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633087866",
+        "memory":"64GB",
+        "Internet":"Wi-Fi + HotSpot",
+        "Price":"24,900"
+    },
+    {
+        "color": "粉紅色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-pink-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633087866",
+        "memory":"256GB",
+        "Internet":"Wi-Fi",
+        "Price":"24,900"
+    },
+    {
+        "color": "粉紅色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-pink-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633087866",
+        "memory":"256GB",
+        "Internet":"Wi-Fi + HotSpot",
+        "Price":"29,900"
+    }
+    {
+        "color": "紫色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-purple-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633088281",
+        "memory":"64GB",
+        "Internet":"Wi-Fi",
+        "Price":"19,900"
+    },
+    {
+        "color": "紫色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-purple-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633088281",
+        "memory":"64GB",
+        "Internet":"Wi-Fi + HotSpot",
+        "Price":"24,900"
+    },
+    {
+        "color": "紫色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-purple-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633088281",
+        "memory":"256GB",
+        "Internet":"Wi-Fi",
+        "Price":"24,900"
+    },
+    {
+        "color": "紫色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-purple-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633088281",
+        "memory":"256GB",
+        "Internet":"Wi-Fi + HotSpot",
+        "Price":"29,900"
+    }
+    {
+        "color": "星光色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-starlight-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633088374",
+        "memory":"64GB",
+        "Internet":"Wi-Fi",
+        "Price":"19,900"
+    },
+    {
+        "color": "星光色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-starlight-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633088374",
+        "memory":"64GB",
+        "Internet":"Wi-Fi + HotSpot",
+        "Price":"24,900"
+    },
+    {
+        "color": "星光色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-starlight-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633088374",
+        "memory":"256GB",
+        "Internet":"Wi-Fi",
+        "Price":"24,900"
+    },
+    {
+        "color": "星光色",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-finish-select-gallery-202211-starlight-wificell?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1670633088374",
         "memory":"256GB",
         "Internet":"Wi-Fi + HotSpot",
         "Price":"29,900"

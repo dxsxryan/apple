@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap {
+            display: flex;
+        }
+
+        .container {
+            width: 50%;
+        }
+
+        .right {
+            width: 50%;
+            margin: 40px 0;
+        }
+
+        .select {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="container">
+
+        </div>
+        <div class="right">
+            <div class="select">
+                <label for="color-type">選擇顏色：</label>
+                <select name="color" id="color-type">
+                    <option value="space_gray">太空灰色</option>
+                    <option value="blue">藍色</option>
+                    <option value="pink">粉紅色</option>
+                    <option value="purple">紫色</option>
+                    <option value="starry_night">星光色</option>
+                </select>
+            </div>
+            <div class="select">
+                <label for="memory-type">選擇容量大小</label>
+                <select name="memory" id="memory-type">
+                    <option value="small">64GB</option>
+                    <option value="large">256GB</option>
+                </select>
+            </div>
+            <div class="select">
+                <label for="net-type">選擇連線功能</label>
+                <select name="net" id="net-type">
+                    <option value="wifi">Wi-Fi</option>
+                    <option value="wisp">Wi-Fi + Hot spot</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let xhr = new XMLHttpRequest();
+        let data = [];
+        xhr.open("GET", "https://raw.githubusercontent.com/dxsxryan/apple/master/apple.json");
+        xhr.onload = function () {
+            data = JSON.parse(xhr.responseText);
+            //data = xhr.responseText;
+            console.log(data);
+        }
+        xhr.send();
+        
+        let container = document.querySelector(".container");
+        window.onload = function () {
+            
+            document.getElementById("color-type").onchange = function () {
+            container.innerHTML = "";
+            let pic = document.createElement("img")
+            let url;
+            let color = document.getElementById("color-type").value;
+            for (let i = 0; i < data.length; i++) {
+                if (data[i].color == color) {
+                    url = data[i].img;
+                }
+            }
+            pic.setAttribute("src", url)
+            pic.setAttribute("style", "width: 100%")
+            container.append(pic);
+        }
+        }
+        
+
+
+    </script>
+
+
+
+</body>
+
+</html>
